@@ -1,4 +1,44 @@
-.d__button{
-    color: fuchsia;
-    border-radius: 50%;
+.d__container{
+    // display: flex;
+    width: 100%;
+    align-content: center;
+    // justify-content: center;
+    text-align: center;
+    background-color: gray;
+
+    form{
+        // display: flex;
+        align-content: center;
+        // align-items: center;
+    }
 }
+
+.l__container{
+    width: 100%;
+
+    ul{
+        // display: flex;
+        width: 100%;
+        align-items: center;
+        align-content: center;
+    }
+    li{
+        width: auto;
+        display: flex;
+        align-content: space-between;
+        margin: 0 1rem;
+        justify-content: space-between;
+    }
+    button{
+        margin: 0 1rem;
+        border-radius: 20%;
+        justify-content: space-between;
+        align-content: space-between;
+    }
+}
+
+// .d__button{
+//     color: fuchsia;
+//     border-radius: 50%;
+//     align-content: space-between;
+// }

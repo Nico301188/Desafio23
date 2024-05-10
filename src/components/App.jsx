@@ -15,11 +15,14 @@ const App = () => {
   };
 
   return (
-    <div className="d__button">
+    <div className='d__container'>
+    <div>
       <h1>Lista de Tareas</h1>
       <TaskForm addTask={addTask}/>
-      <TaskList tasks={tasks} deleteTask={deleteTask} 
-      className="d__button" />
+    </div>
+      <div>
+      <TaskList tasks={tasks} deleteTask={deleteTask} />
+      </div>
     </div>
   );
 };

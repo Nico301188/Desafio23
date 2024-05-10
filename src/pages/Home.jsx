@@ -2,7 +2,7 @@ import App from "../components/App"
 
 function Home() {
     return (
-        <div >
+        <div className="d__container">
             <App />
         </div>
 

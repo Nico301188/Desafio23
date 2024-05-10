@@ -12,13 +12,12 @@ const TaskForm = ({ addTask }) => {
 
   return (
     <>
-      <form className='d__button'      style={{ color: 'red' }} onSubmit={handleSubmit}>
+      <form  onSubmit={handleSubmit}>
         <input
           type="text"
           value={text}
           onChange={(e) => setText(e.target.value)}
           placeholder="Ingrese una nueva tarea"
-          // className='d__button'
         />
         <button type="submit">Agregar</button>
       </form>
