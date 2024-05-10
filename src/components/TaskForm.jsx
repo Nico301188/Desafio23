@@ -12,14 +12,18 @@ const TaskForm = ({ addTask }) => {
 
   return (
     <>
-      <form  onSubmit={handleSubmit}>
-        <input
-          type="text"
-          value={text}
-          onChange={(e) => setText(e.target.value)}
-          placeholder="Ingrese una nueva tarea"
-        />
-        <button type="submit">Agregar</button>
+      <form onSubmit={handleSubmit}>
+        <div>
+          <input
+            type="text"
+            value={text}
+            onChange={(e) => setText(e.target.value)}
+            placeholder="Ingrese una nueva tarea"
+          />
+        </div>
+        <div>
+          <button type="submit">Agregar</button>
+        </div>
       </form>
     </>
   );
